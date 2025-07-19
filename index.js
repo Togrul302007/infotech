@@ -1,5 +1,6 @@
 function toggleMenu1(){
     document.querySelector(".nav_nav").style.display = "block";
+    document.querySelector(".nav_nav").style.opacity = "1";
     document.querySelector(".hamburger").style.display = "none"
     document.querySelector(".close").style.display = "block"
     
@@ -81,4 +82,21 @@ function swap6(){
             dev2[i].classList.remove("nova")
         }
     }
+}
+
+// let visit = document.getElementById("visit");
+
+function visit(){
+    alert("Bu, rəsmi vebsayt deyil , tələbələrimiz tərəfindən yaradılmış demo vebsaytdır. Bu vebsaytın məqsədi tələbələrimizin praktik qabiliyyətinin tətbiq edilməsi və yoxlanmasıdır. Vebsayt responsive (mobil uyumlu) deyil.")
+}
+
+const my_div1 = document.querySelector(".next")
+const my_div2 = document.querySelector(".diger")
+
+
+function move(){
+    my_div1.classList.toggle("move1");
+    my_div2.classList.toggle("move2");
+    // document.querySelector("body").classList.toggle("blur");
+    // document.querySelector("next").classList.toggle("noblur");
 }
