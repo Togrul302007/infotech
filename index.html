@@ -23,6 +23,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios" />
     
 </head>
 <body>
@@ -47,6 +48,14 @@
                 ❌
                 </div>
                 
+                <div onclick="move()" class="diger">
+                    <p class="material-symbols-outlined">arrow_forward_ios</p>
+                </div>
+                <div class="next">
+                    <div>Faydalı ola bilər:</div>
+                    <a href="#">Fag</a>
+                    <a href="#">Blog</a>
+                </div>
             </div>
             <div class="nav_nav montserrat-uniquifier" data-aos="fade-left" data-aos-delay="400" >
                 <nav>
@@ -137,10 +146,10 @@
         </div>
         <div class="content">
             <div  data-aos="fade-right" data-aos-delay="100" class="contentp_1">
-                <p><strong> InfoTech Academy </strong> müasir informasiya texnologiyaları üzrə təhsil verməyi hədəfləyən bir tədris mərkəzidir...</p>
+                <p><strong> InfoTech Academy </strong> müasir informasiya texnologiyaları üzrə təhsil verməyi hədəfləyən bir tədris mərkəzidir <b class="more">...</b> <b class="etraf"><a style="color: inherit;" href="#">Daha ətraflı</a></b></p>
             </div>
             <div data-aos="fade-left" data-aos-delay="150" class="contentp_2">
-                <p> <strong>Təcrübəli</strong> müəllim heyətimiz və <strong>innovativ</strong>  tədris metodlarımız...</p>
+                <p> <strong>Təcrübəli</strong> müəllim heyətimiz və <strong>innovativ</strong>  tədris metodlarımız <b class="etraf"><a style="color: inherit;" href="#">Daha ətraflı</a></b></p>
             </div>
         </div>
     </div>
@@ -408,7 +417,7 @@
                 <div class="img">
                     <img src="Screenshot 2025-07-07 104614.png" alt="">
                 </div>
-                <a class="visit" data-aos="fade-left" data-aos-delay="500" href="#" >Visit site </a>
+                <a class="visit" id="visit" onclick="visit()" data-aos="fade-left" data-aos-delay="500" href="№" >Visit site </a>
                 <div>
                     <h3 class="capital">KapitalBank Demo Website</h3>
                 </div>
@@ -422,9 +431,9 @@
                 <div class="img">
                     <img src="Screenshot 2025-07-07 104649.png" alt="">
                 </div>
-                <a class="visit" data-aos="fade-left" data-aos-delay="500" href="#" >Visit site </a>
+                <a class="visit" id="visit" onclick="visit()" data-aos="fade-left" data-aos-delay="500" href="#" >Visit site </a>
                 <div>
-                    <h3 class="vergi">DVX Demo Website</h3>
+                    <h3 class="vergi"> D.V.X.   Demo  Website</h3>
                 </div>
                 <div style="margin-top: 40px;" class="biz">
                     <h3>Hazırlayanlar:</h3>
@@ -436,7 +445,7 @@
                 <div class="img">
                     <img src="Screenshot 2025-07-07 104858.png" alt="">
                 </div>
-                <a class="visit" data-aos="fade-left" data-aos-delay="500" href="#" >Visit site </a>
+                <a class="visit" id="visit" onclick="visit()" data-aos="fade-left" data-aos-delay="500" href="#" >Visit site </a>
                 <div>
                     <h3 class="kontakt">Kontakt Home Demo Website</h3>
                 </div>
@@ -452,7 +461,7 @@
                 <div class="img">
                     <img src="Screenshot 2025-07-07 104614.png" alt="">
                 </div>
-                <a class="visit" data-aos="fade-left" data-aos-delay="500" href="#" >Visit site </a>
+                <a class="visit" onclick="visit()" id="visit" data-aos="fade-left" data-aos-delay="500" href="#" >Visit site </a>
                 <div>
                     <h3>KapitalBank Demo Website</h3>
                 </div>
@@ -466,7 +475,7 @@
                 <div class="img">
                     <img src="Screenshot 2025-07-07 104614.png" alt="">
                 </div>
-                <a class="visit" data-aos="fade-left" data-aos-delay="500" href="#" >Visit site </a>
+                <a class="visit" id="visit" onclick="visit()" data-aos="fade-left" data-aos-delay="500" href="" >Visit site </a>
                 <div>
                     <h3>KapitalBank Demo Website</h3>
                 </div>
@@ -480,7 +489,7 @@
                 <div class="img">
                     <img src="Screenshot 2025-07-07 104614.png" alt="">
                 </div>
-                <a class="visit" data-aos="fade-left" data-aos-delay="500" href="#" >Visit site </a>
+                <a class="visit" id="visit" onclick="visit()" data-aos="fade-left" data-aos-delay="500" href="#" >Visit site </a>
                 <div>
                     <h3>KapitalBank Demo Website</h3>
                 </div>
@@ -516,12 +525,12 @@
             <div class="part part23 montserrat-uniquifier ">
                 <ul>
                 <p >ƏLAQƏ</p>
-                <ul>
+                <ul style="font-size: 18px;">
                     <li> <b>Ünvan:</b> Sunqayıt şəhəri, <br>13-cü mkr,
                     1 saylı Notariat</li>
                     <li><b>Telefon:</b> <br> (+994 55) 440-86-95 <br> (+994 55) 284 57 39 </li>
                     <li><b>Email: </b>fuadmirzaliyev14@gmail.com</li>
-                    <li><b>QR:</b> <br><img style="margin-left: 30px; width:
+                    <li><b>QR:</b> <br><img style="margin-left: 120px; width:
                         100px; border-radius:10px" src="WhatsApp Image 2025-07-16 at 10.21.00.jpeg" alt=""></li>
                 </ul>
             </div>
@@ -549,8 +558,8 @@
             </div>   
         </div>
         </div>
-        <div  class="part3">
-            <div class="tangerine-regular"> Made by Braves of InfoTech    </div>
+        <div style="padding: 60px;" class="part3">
+            <div  style="margin-bottom: 20px; font-size:25px" class="tangerine-regular"> Made by Braves of InfoTech    </div>
             <div> Copywrite -2025-</div>
         </div>
 
