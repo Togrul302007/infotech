@@ -116,6 +116,14 @@ html{
         left: 0px;
     }
 }
+.move2{
+    animation-name: move1;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: linear;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
 @keyframes move1{
     from{
         left: -14px;
@@ -127,14 +135,8 @@ html{
 .blur{
     filter: blur(2px);
 }
-
-.move2{
-    animation-name: move1;
-    animation-timing-function: ease;
-    animation-iteration-count: 1;
-    animation-direction: linear;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
+.don{
+  transform: translateY(-180deg);
 }
 
 .fag{
@@ -2787,7 +2789,7 @@ li>a:hover{
         left: -15px;
     /* padding: 30px 0px !important; */
     }
-    .diger P{
+    .diger p{
         transform: scale(0.7);
     }
     .contact .part{
@@ -2834,8 +2836,31 @@ li>a:hover{
         font-size: 13x !important;
     }
     .next div{
-        font-size: 20px;
+        font-size: 15px;
     }
+    .next a{
+        font-size: 13px;
+    }
+    @keyframes move{
+        from{
+            left: -300px;
+            opacity: 0;    
+        }
+        to{
+            left: 0px;
+            opacity: 1;
+        }
+    }
+    @keyframes move1{
+        from{
+            left: 0px;
+        }
+        to{
+            left: 120px;
+        }
+    }
+}
+@media(max-width:425px){
     @keyframes move{
         from{
             left: -300px;    
@@ -2849,11 +2874,9 @@ li>a:hover{
             left: 0px;
         }
         to{
-            left: 154px;
+            left: 150px;
         }
     }
-}
-@media(max-width:425px){
     .twice{
         font-size: 10px;
     }
