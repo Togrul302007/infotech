@@ -78,6 +78,7 @@ html{
     height: 100vh !important;
     border: 2px solid white;
     left: -250px;
+    width: 260px;
     border-left: none ;
     transition: .5s !important;
     transition-timing-function: ease;
@@ -87,11 +88,11 @@ html{
     background-color:rgba(0, 0, 0, 0.712);
     
 }
-.next div{
+.div4 div{
     font-size: 30px;
     padding: 20px;
 }
-.next a{
+.div4 a{
     display: block;
     text-decoration: none;
     text-align: center;
@@ -109,7 +110,7 @@ html{
 }
 @keyframes move{
     from{
-        left: -250px;
+        left: -260px;
         
     }
     to{
@@ -126,10 +127,10 @@ html{
 }
 @keyframes move1{
     from{
-        left: -14px;
+        left: 0px;
     }
     to{
-        left: 226px;
+        left: 240px;
     }
 }
 .blur{
@@ -2544,6 +2545,23 @@ li>a:hover{
     .text{
         width: 350px;
     }
+    .next div{
+        font-size: 20px;
+    }
+    .next a{
+        font-size: 16px;
+    }
+    .next{
+        width: 200px;
+    }
+    @keyframes move1{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 180px;
+    }
+}
     .part24{
         display: flex !important;
         flex-direction: column;
@@ -2841,7 +2859,7 @@ li>a:hover{
     .next a{
         font-size: 13px;
     }
-    @keyframes move{
+    /* @keyframes move{
         from{
             left: -300px;
             opacity: 0;    
@@ -2858,10 +2876,10 @@ li>a:hover{
         to{
             left: 120px;
         }
-    }
+    } */
 }
 @media(max-width:425px){
-    @keyframes move{
+    /* @keyframes move{
         from{
             left: -300px;    
         }
@@ -2876,7 +2894,7 @@ li>a:hover{
         to{
             left: 150px;
         }
-    }
+    } */
     .twice{
         font-size: 10px;
     }
@@ -2909,8 +2927,15 @@ li>a:hover{
     .nn>.p1{
         font-size: 12px !important;
     }
-    .contact{
-
+    .next{
+        width: 150px;
+    }
+    @keyframes move1{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 128px;
     }
 }
 @media(max-width:375px){
