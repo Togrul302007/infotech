@@ -2838,7 +2838,7 @@ li>a:hover{
     }
     @keyframes move{
         from{
-            left: -250px;    
+            left: -300px;    
         }
         to{
             left: 0px;
@@ -2846,7 +2846,7 @@ li>a:hover{
     }
     @keyframes move1{
         from{
-            left: -97px;
+            left: 0px;
         }
         to{
             left: 154px;
