@@ -88,11 +88,11 @@ html{
     background-color:rgba(0, 0, 0, 0.712);
     
 }
-.div4 div{
+.next div{
     font-size: 30px;
     padding: 20px;
 }
-.div4 a{
+.next a{
     display: block;
     text-decoration: none;
     text-align: center;
@@ -2547,9 +2547,11 @@ li>a:hover{
     }
     .next div{
         font-size: 20px;
+        color: white !important;
     }
     .next a{
         font-size: 16px;
+        color: white !important;
     }
     .next{
         width: 200px;
@@ -2858,6 +2860,7 @@ li>a:hover{
     }
     .next a{
         font-size: 13px;
+        color: white;
     }
     /* @keyframes move{
         from{
