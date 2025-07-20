@@ -92,11 +92,21 @@ function visit(){
 
 const my_div1 = document.querySelector(".next")
 const my_div2 = document.querySelector(".diger")
+const m1 = document.querySelector(".m1")
+const me = document.querySelector(".diger p");
+
 
 
 function move(){
     my_div1.classList.toggle("move1");
     my_div2.classList.toggle("move2");
-    // document.querySelector("body").classList.toggle("blur");
-    // document.querySelector("next").classList.toggle("noblur");
+    my_div2.classList.toggle("don");
+    // m1.classList.toggle("blur")
+    document.querySelector("main").classList.toggle("blur");
+    document.querySelector("#haqqimizda").classList.toggle("blur");   
+    document.querySelector("#about").classList.toggle("blur");    
+    document.querySelector("#telebe").classList.toggle("blur"); 
+    document.querySelector(".contact").classList.toggle("blur"); 
+    me.classList.toggle("don");
+        // document.querySelector("next").classList.toggle("noblur");
 }
