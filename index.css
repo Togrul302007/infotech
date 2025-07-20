@@ -79,6 +79,7 @@ html{
     border: 2px solid white;
     left: -250px;
     width: 260px;
+    z-index: 90000;
     border-left: none ;
     transition: .5s !important;
     transition-timing-function: ease;
@@ -2939,7 +2940,7 @@ li>a:hover{
     }
     @keyframes move1{
     from{
-        left: 0px;
+        left: -150px;
     }
     to{
         left: 128px;
