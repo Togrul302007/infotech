@@ -8,7 +8,19 @@ body{
     height: 100vh;
     box-sizing: border-box;
 }
-
+.background-fixed{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+    background-image: url(WhatsApp\ Image\ 2025-07-05\ at\ 21.05.03.jpeg);
+    backdrop-filter: blur(0px);
+}
 .mainlogin{
     width: 650px;
     height: 560px;
