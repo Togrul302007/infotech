@@ -104,7 +104,13 @@ html{
     margin-block: 20px;
     font-size: 20px;
     color: white;
+    border-bottom: 2px solid #0ff;
+    margin: 0px 10px;
+    /* list-style-type: circle; */
 }
+/* .next a::before{
+    content: "";
+} */
 .move1{
     animation-name: move;
     animation-timing-function: ease;
@@ -413,7 +419,7 @@ header{
         margin: auto !important;
         align-items: center;
         font-size: 17px;
-        border: 1px solid white;
+        border: 1px solid #0ff;
         height: 62px;
         padding-right: 40px !important;
         transition: width 2s;
@@ -632,9 +638,11 @@ nav{
     position: relative;
     background-color: rgb(5, 10, 248) !important;
     height: 1px !important;
-    border: 2px solid rgb(5, 49, 243) !important;
-    box-shadow: 3px 3px 4px blue;
-    box-shadow: -3px -3px 3px blue;
+     /* border-color: #0ff !important; */
+
+    border: 2px solid #0ff !important;
+    box-shadow: 3px 3px 4px #0ff;
+    box-shadow: -3px -3px 3px #0ff;
 }
 .alex-brush-regular {
   font-family: "Alex Brush", cursive;
@@ -1365,6 +1373,7 @@ li>a:hover{
     margin-right: 20%;
      box-shadow: 0 30px 50px rgba(255, 255, 255, 0.5);
      transition: .5s;
+
      transition-timing-function: ease;
      box-shadow: -13px 0px 1px rgb(15, 15, 192);
     /* transform-style: preserve-3d;
@@ -1705,8 +1714,8 @@ li>a:hover{
     top: 500px;
 }
 .proyekt{
-    border: 5px double #0ff;
-    border-color: #0ff;
+    border: 5px double #0ff !important;
+    /* border-color: #0ff; */
     margin: auto;
     width: 60%;
     border-radius: 100px;
@@ -1874,7 +1883,7 @@ li>a:hover{
     width: auto;
     color: white;
     margin-bottom: 200px;
-    border-top: 2px solid white;
+    border-top: 2px solid #0ff;
     padding-bottom: 20px !important;
 }
 .part1{
@@ -2553,7 +2562,7 @@ li>a:hover{
         width: 350px;
     }
     .next div{
-        font-size: 20px;
+        font-size: 18px;
         color: white !important;
     }
     .next a{
