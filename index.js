@@ -107,6 +107,9 @@ function move(){
     document.querySelector("#about").classList.toggle("blur");    
     document.querySelector("#telebe").classList.toggle("blur"); 
     document.querySelector(".contact").classList.toggle("blur"); 
+    document.querySelector(".m1").classList.toggle("blur");
+    document.querySelector(".nav_nav2").classList.toggle("blur"); 
+
     me.classList.toggle("don");
         // document.querySelector("next").classList.toggle("noblur");
 }
