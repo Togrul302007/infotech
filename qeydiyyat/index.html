@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qeydiyyat</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="mainlogin">
+        <div class="h1">
+            <li><a href="">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Faq.html">FAQ</a></li>
+        </div>
+        <div class="h2">
+            <div class="h3"> 
+                <img class="image1" src="sekiller/Screenshot 2025-07-11 155011.png" alt="">
+                <img class="image2" src="sekiller/İnfotehc logo-Photoroom.png" alt="">
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h1>WELCOME</h1>
+                    <div>
+                        <input class="email" type="email" placeholder="Email Address">
+                        <input class="password" type="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="forgot1">
+                    <a class="forgot" href="qeydiyyat1.html">Forgot password</a>
+                </div>
+                <div class="login">
+                    <a href="#123123">Log in</a>
+                </div>
+                <div class="account">
+                    <p class="sagol">Not have an account?</p>
+                    <a class="sign" href="##">Sign up</a>
+                </div>
+                <div class="or">
+                    <div class="hrr1"><hr></div>
+                    <div class="orr1">OR</div>
+                    <div class="hrr2"><hr></div>
+                </div>
+                <div class="google">
+                    <!-- <a class="google1" href="#123123"><img class="iconlar1" src="sekiller/google-chrome-icon-logo-symbol-free-png.webp" alt="" width="20px"><span class="google2">Continue with Google</span></a> -->
+                    <button id="google-btn" style="
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    border: none;
+                    background-color: white;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                    cursor: pointer;">
+                    <img src="https://developers.google.com/identity/images/g-logo.png" width="20" />
+                    Continue with Google
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+  document.getElementById("google-btn").addEventListener("click", function () {
+    const clientId = "1087231531013-hsfgl5731kan1nc9h6n98g03d14j0ih5.apps.googleusercontent.com"; // öz Google Client ID-ni yaz
+    const redirectUri = "http://127.0.0.1:5501/websaytlar/qebul.html"; // yönlənəcək yer
+    const scope = "email profile";
+    const responseType = "token";
+
+    const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=${responseType}&scope=${scope}`;
+
+    // Google login səhifəsinə yönləndir
+    window.location.href = authUrl;
+  });
+</script>
+
+    <!-- 1087231531013-hsfgl5731kan1nc9h6n98g03d14j0ih5.apps.googleusercontent.com -->
+</body>
+</html>

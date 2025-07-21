@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="mainlogin">
+        <div class="h1">
+            <li><a href="qeydiyyat.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Faq.html">FAQ</a></li>
+        </div>
+        <div class="h100">
+            <div>
+                <h3>Proqramlaşdırmaya Haradan Başlamalı? Gənclər üçün Yol Xəritəsi</h3>
+                <p>Bugün dünyada hər sahədə – təhsildə, səhiyyədə, nəqliyyatda və hətta incəsənətdə belə – texnologiya aparıcı rola sahibdir. Proqramlaşdırma isə bu texnoloji aləmin dilidir. Amma bir çox gənc “Nədən başlamalıyam?”, “Mənə uyğun proqramlaşdırma dili hansıdır?”, “Mən bacararammı?” kimi suallarla çıxış yolunu tapa bilmir. Bu yazıda məqsədimiz gənclər üçün proqramlaşdırmaya aydın və sadə bir yol xəritəsi təqdim etməkdir.
+                </p>
+                <h3>Niyə Proqramlaşdırma Öyrənməlisən?</h3>
+                <p>Proqramlaşdırma təkcə “kod yazmaq” deyil. Bu, problemləri analiz etmək, həll yolları düşünmək, və məntiqi düşüncə tərzi formalaşdırmaqdır. Proqramçı olmaq sənə aşağıdakı üstünlükləri qazandıracaq:</p>
+
+                <li> <b>Yaradıcılıq</b> – Öz layihəni sıfırdan yarada bilirsən.</li>
+                <li> <b>Azadlıq</b> – Uzaqdan işləmək, freelancing və ya öz startupını qurmaq imkanı.</li>
+                <li> <b>Gəlir imkanları</b> – Texnologiya sahəsində maaşlar adətən bazar ortalamasından daha yüksəkdir.</li>
+                <li> <b>Qlobal fürsətlər</b> – Təkcə Azərbaycanda yox, dünyanın hər yerində işləmək şansın var.</li>
+
+                <h3>Haradan Başlamalı?</h3>
+                <p>Başlamaq üçün ən uyğun dillərdən biri Pythondur. Onun sintaksisi sadə, oxunaqlıdır və yeni başlayanlar üçün idealdır. Əgər web development səni maraqlandırırsa, HTML, CSS və JavaScript ilə başlaya bilərsən.</p>
+                <p>Əsas addımlar belədir:</p>
+                <li><b>1. Kiçik layihə ilə başla</b> – Məsələn, sadə kalkulyator, hava proqnozu appı və ya gündəlik planlaşdırıcı.</li>
+                <li><b>2. Onlayn resurslardan istifadə et</b> – YouTube, Coursera, Udemy və “freeCodeCamp” kimi platformalar çox faydalıdır.</li>
+                <li><b>3. Daim praktika et</b> – Kitab oxumaq yaxşıdır, amma kod yazmadan öyrənmək mümkün deyil.</li>
+                <li><b>4. Forumlara qoşul</b> – Stack Overflow, Reddit və Discord qrupları sənə kömək edəcək.</li>
+                <li><b>5. Azərbaycan dilində mənbələr</b> – Artıq bir çox müəllim və YouTube kanalı Azərbaycanca resurslar təqdim edir.</li>
+
+                <h3>Çətinliklərə Hazır Ol, Amma Qorxma</h3>
+                <p>Başlanğıcda səhvlər qaçılmazdır. Kod işləməyəcək, xətalar çıxacaq, motivasiya düşəcək. Amma bu tamamilə normaldır. Ən peşəkar proqramçılar belə hər gün səhv edir və yenidən öyrənirlər. Burada əsas olan təslim olmamaq və davamlı öyrənməkdir.</p>
+
+                <h3>Uğurlu Olanlar Necə Uğur Sahibi Oldular?</h3>
+                <p>Uğurlu proqramçılar gündəlik olaraq:</p>
+                <li>Özlərini inkişaf etdirirlər (kitab oxuyur, təlimlər izləyirlər)</li>
+                <li>Açıq kodlu layihələrə qatılırlar</li>
+                <li>Yeni texnologiyaları sınaqdan keçirirlər</li>
+                <li>Və ən əsası: suallar verirlər, cavab axtarırlar</li>
+            </div>
+
+            <h3>Unutma: proqramçı olmaq üçün dahi olmaq lazım deyil, maraqlı və səbirli olmaq kifayətdir.</h3>
+        </div>
+    </div>
+
+    <script>
+  document.getElementById("google-btn").addEventListener("click", function () {
+    const clientId = "1087231531013-hsfgl5731kan1nc9h6n98g03d14j0ih5.apps.googleusercontent.com"; // öz Google Client ID-ni yaz
+    const redirectUri = "http://127.0.0.1:5501/websaytlar/qebul.html"; // yönlənəcək yer
+    const scope = "email profile";
+    const responseType = "token";
+
+    const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=${responseType}&scope=${scope}`;
+
+    // Google login səhifəsinə yönləndir
+    window.location.href = authUrl;
+  });
+</script>
+
+    <!-- 1087231531013-hsfgl5731kan1nc9h6n98g03d14j0ih5.apps.googleusercontent.com -->
+</body>
+</html>

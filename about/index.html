@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="About.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="mainlogin">
+        <div class="h1" style="display: flex;">
+            <li><a href="qeydiyyat.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Faq.html">FAQ</a></li>
+        </div>
+        <div class="h10">
+            <div class="section1 sec">
+                <h2 class="biz" style="color: rgb(255, 254, 254); text-decoration: none;">Biz Kimik?</h2>
+                <p class="ha1 haha" style="color: rgb(255, 254, 254);">
+                <b>InfoTech Academy</b> — texnologiya və proqramlaşdırma sahəsində öyrənmək və inkişaf etmək istəyənlər üçün yaradılmış müasir və innovativ bir platformadır.
+                </p>
+                <p class="ha2 haha" style="color: rgb(255, 254, 254);">
+                2025-ci ildə gənc və peşəkar proqramçılar tərəfindən qurulan bu layihənin məqsədi yeni başlayanlara vinkişaf etmiş istifadəçilərə keyfiyyətli, əlçatan və praktiki təhsil resursları təqdim etməkdir.
+                </p>
+            </div>
+            <div class="section2 sec" style="color: rgb(255, 254, 254);">
+                <h2 class="missiya" style="color: rgb(255, 254, 254);">Missiyamız</h2>
+                <p class="ha3 haha" style="color: rgb(255, 254, 254);">
+                Texnologiyanı hər kəs üçün əlçatan etmək. Biz gənc nəsli proqramlaşdırma, süni intellekt, kibertəhlükəsizlik və frontend/back-end sahələrində gücləndirmək istəyirik.
+                </p>
+                <p class="ha4 haha" style="color: rgb(255, 254, 254);">
+                Biz inanırıq ki, düzgün yönləndirmə və keyfiyyətli tədris vasitəsilə hər bir insan proqramlaşdırma öyrənə və texnoloji gələcəyin bir parçasına çevrilə bilər.
+                </p>
+            </div>
+        </div>
+        <div class="h10">
+            <div class="section3 sec">
+                <h2 class="vizyon">Vizyonumuz</h2>
+                <p class="ha5 haha" style="color: rgb(255, 254, 254);">
+                Azərbaycanın və regionun ən qabaqcıl onlayn texnoloji təhsil platforması olmaq. 
+                Məqsədimiz təkcə texniki bilik vermək deyil, həm də düşünən, yenilikçi və real dünya problemlərinə həllər tapan mütəxəssislər yetişdirməkdir.
+                </p>
+            </div>
+            <div class="section4 sec">
+                <h2 class="deyer">Dəyərlərimiz</h2>
+                <ul>
+                <li><strong>Keyfiyyət:</strong> Tədrisdə maksimum praktika və müasir texnologiyalardan istifadə.</li>
+                <li><strong>Əlçatanlıq:</strong> Hər kəs üçün uyğun və ya sərfəli təhsil imkanları.</li>
+                <li><strong>İnnovasiya:</strong> Web proqramlaşdırma, kibertəhlükəsizlik və yeni texnologiyalara fokuslanma.</li>
+                <li><strong>Şəffaflıq:</strong> Açıq qaydalar, açıq mənbə ruhu və istifadəçi mərkəzli yanaşma.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+  document.getElementById("google-btn").addEventListener("click", function () {
+    const clientId = "1087231531013-hsfgl5731kan1nc9h6n98g03d14j0ih5.apps.googleusercontent.com"; // öz Google Client ID-ni yaz
+    const redirectUri = "http://127.0.0.1:5501/websaytlar/qebul.html"; // yönlənəcək yer
+    const scope = "email profile";
+    const responseType = "token";
+
+    const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=${responseType}&scope=${scope}`;
+
+    // Google login səhifəsinə yönləndir
+    window.location.href = authUrl;
+  });
+</script>
+
+    <!-- 1087231531013-hsfgl5731kan1nc9h6n98g03d14j0ih5.apps.googleusercontent.com -->
+</body>
+</html>
