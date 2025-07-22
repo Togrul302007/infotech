@@ -113,3 +113,11 @@ function move(){
     me.classList.toggle("don");
         // document.querySelector("next").classList.toggle("noblur");
 }
+
+function like(){
+    let like = document.querySelector(".like")
+    like.style.display = "block"
+    like.classList.add("my_animate");
+    // like.style.display = "none"
+    
+}
