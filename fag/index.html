@@ -282,21 +282,6 @@
     <script src="index.js">
 
     </script>
-
-    <script>
-  document.getElementById("google-btn").addEventListener("click", function () {
-    const clientId = "1087231531013-hsfgl5731kan1nc9h6n98g03d14j0ih5.apps.googleusercontent.com"; // öz Google Client ID-ni yaz
-    const redirectUri = "http://127.0.0.1:5501/websaytlar/qebul.html"; // yönlənəcək yer
-    const scope = "email profile";
-    const responseType = "token";
-
-    const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=${responseType}&scope=${scope}`;
-
-    // Google login səhifəsinə yönləndir
-    window.location.href = authUrl;
-  });
-</script>
-
-    <!-- 1087231531013-hsfgl5731kan1nc9h6n98g03d14j0ih5.apps.googleusercontent.com -->
+   <!-- 1087231531013-hsfgl5731kan1nc9h6n98g03d14j0ih5.apps.googleusercontent.com -->
 </body>
 </html>
